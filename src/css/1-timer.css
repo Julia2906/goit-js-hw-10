@@ -15,8 +15,13 @@
   margin-right: 8px;
   padding: 0;
 }
+.datetime-picker:hover {
+  border: 1px solid #000000;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
 
-.datetime-picker:active {
+.datetime-picker:focus {
   border: 1px solid #4e75ff;
   color: #000000;
   background-color: #ffffff;
@@ -27,11 +32,6 @@
   background-color: #fafafa;
   color: #808080;
   border: 1px solid #808080;
-}
-.datetime-picker:hover {
-  border: 1px solid #000000;
-  color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .start-btn {

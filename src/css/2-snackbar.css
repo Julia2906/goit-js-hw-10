@@ -30,7 +30,7 @@
   border: 1px solid #000000;
 }
 
-.delay-input:active {
+.delay-input:focus {
   color: #2e2f42;
   border: 1px solid #4e75ff;
   outline: none;
