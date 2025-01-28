@@ -16,12 +16,24 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 16px;
+  color: #2e2f42;
 }
 
 .delay-input {
   height: 40px;
   border: 1px solid #808080;
   border-radius: 4px;
+  color: #2e2f42;
+}
+
+.delay-input:hover {
+  border: 1px solid #000000;
+}
+
+.delay-input:active {
+  color: #2e2f42;
+  border: 1px solid #4e75ff;
+  outline: none;
 }
 
 .fieldset-state {
@@ -32,6 +44,11 @@
   height: 64px;
   border: 1px solid #808080;
   border-radius: 4px;
+  color: #2e2f42;
+}
+
+.fieldset-state:hover {
+  border: 1px solid #000000;
 }
 
 .fulfilled-label {
