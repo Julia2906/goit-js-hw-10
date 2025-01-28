@@ -1,0 +1,18 @@
+ul li {
+  list-style: none;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #168cec;
+  padding: 24px 16px;
+}
+
+.task-link {
+  text-decoration: none;
+  color: #ffffff;
+}

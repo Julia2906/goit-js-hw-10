@@ -8,27 +8,27 @@
     <link rel="stylesheet" href="./css/2-snackbar.css" />
   </head>
   <body>
-    <p><a href="./index.html">Go back</a></p>
+    <p><a class="goback-link" href="./index.html">Go back</a></p>
 
     <form class="form">
-      <label>
+      <label class="delay-label">
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input class="delay-input" type="number" name="delay" required />
       </label>
 
-      <fieldset>
+      <fieldset class="fieldset-state">
         <legend>State</legend>
-        <label>
+        <label class="fulfilled-label">
           <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
-        <label>
+        <label class="rejected-label">
           <input type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
 
-      <button type="submit">Create notification</button>
+      <button class="create-btn" type="submit">Create notification</button>
     </form>
 
     <script type="module" src="./js/2-snackbar.js"></script>

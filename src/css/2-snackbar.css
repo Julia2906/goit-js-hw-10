@@ -1,1 +1,68 @@
 @import 'izitoast/dist/css/iziToast.min.css';
+
+.goback-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.delay-input {
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.fieldset-state {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  padding: 0;
+  height: 64px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.fulfilled-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.rejected-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.create-btn {
+  min-width: 360px;
+  padding: 8px auto;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border: #4e75ff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+}
+
+.create-btn:hover {
+  background-color: #6c8cff;
+}
