@@ -8,30 +8,30 @@
     <script type="module" crossorigin src="/vanilla-app-template/2-snackbar.js"></script>
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-Dov3POoy.js">
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/2-snackbar-DnveWo0P.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/2-snackbar-DyZbNV7E.css">
   </head>
   <body>
-    <p><a href="./index.html">Go back</a></p>
+    <p><a class="goback-link" href="./index.html">Go back</a></p>
 
     <form class="form">
-      <label>
+      <label class="delay-label">
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input class="delay-input" type="number" name="delay" required />
       </label>
 
-      <fieldset>
+      <fieldset class="fieldset-state">
         <legend>State</legend>
-        <label>
+        <label class="fulfilled-label">
           <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
-        <label>
+        <label class="rejected-label">
           <input type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
 
-      <button type="submit">Create notification</button>
+      <button class="create-btn" type="submit">Create notification</button>
     </form>
 
   </body>
